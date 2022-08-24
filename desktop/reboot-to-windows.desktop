@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Reboot To Windows
+Version=1.0
+Type=Application
+Categories=Application
+Comment=Reboot to windows partition
+Terminal=true
+Exec=bash -c 'cd /home/jay/reboot-to-windows && ./reboot-win;$SHELL'
+Icon=/home/jay/reboot-to-windows/system-windows-icon-png-4.png
